@@ -58,14 +58,14 @@ public class AboutScreenInfo
 
         titles = new Dictionary<string, string>()
         {
-            { "ImageTargets", "Image Targets" },
+            { "ImageTargets", "Escanear Imagem" },
             { "VuMark", "VuMark" },
             { "CylinderTargets", "Cylinder Targets" },
-            { "MultiTargets", "Multi Targets" },
+            { "MultiTargets", "Multi Objetos" },
             { "UserDefinedTargets", "User Defined Targets" },
             { "ObjectReco", "Object Reco" },
             { "CloudReco", "Cloud Reco" },
-            { "VirtualButtons", "Virtual Buttons" },
+            { "VirtualButtons", "Interação Virtual" },
             { "ModelTargets", "Model Targets" },
             { "GroundPlane", "Ground Plane" },
             { "BackgroundTextureAccess", "Background Texture Access" },
@@ -84,10 +84,10 @@ public class AboutScreenInfo
                                 ? "<color=green>Yes</color>"
                                 : "<color=red>No</color>";
 
-        string description = "\n<size=26>Description:</size>";
-        string keyFunctionality = "<size=26>Key Functionality:</size>";
-        string targets = "<size=26>Targets:</size>";
-        string instructions = "<size=26>Instructions:</size>";
+        string description = "\n<size=26>Descrição:</size>";
+        string keyFunctionality = "<size=26>Funcionalidades:</size>";
+        string targets = "<size=26>Alvos:</size>";
+        string instructions = "<size=26>Instruções:</size>";
         string footer =
             "<size=26>Build Version Info:</size>" +
             "\n• Vuforia " + vuforiaVersion +
@@ -120,22 +120,22 @@ public class AboutScreenInfo
         descriptions.Add(
             "ImageTargets",
             description +
-            "\nThe Image Targets sample shows how to detect an image " +
-            "target and render a simple 3D object on top of it." +
+            "\nVocê pode escanear cartões e imagens personalizadas espalhada em nossa loja. Ao detectar uma imagem que contenha modelos 3D e outros informações" +
+            ", renderia um Objeto 3D em cima dele." +
             "\n\n" +
             keyFunctionality +
-            "\n• Simultaneous detection and tracking of multiple targets" +
-            "\n• Load and activate multiple device databases" +
-            "\n• Activate Extended Tracking" +
-            "\n• Manage camera functions: flash and continuous autofocus" +
+            "\n• Exibe o produto em 3D " +
+            "\n• Carega e ativa varios bancos de dados de objetos" +
+            "\n• Rastreamento de objeto " +
+            "\n• Flash e controle de autofoque" +
             "\n\n" +
             targets +
-            "\n• Included Targets" +
+            "\n• Imagens e cartões personalizados" +
             "\n\n" +
             instructions +
-            "\n• Point camera at target to view" +
-            "\n• Single tap to focus" +
-            "\n• Double tap to access options menu" +
+            "\n• Aponte a camera do seu smartphone para uma imagem ou cartão para poder ver" +
+            "\n• Toque na tela para focar " +
+            "\n• Dois toques para acessar o menu" +
             "\n\n" +
             footer + "\n");
 
@@ -194,19 +194,18 @@ public class AboutScreenInfo
         descriptions.Add(
             "MultiTargets",
             description +
-            "\nThe Multi Targets sample shows how to detect a simple cuboid 3D shape " +
-            "and animate a 3D object around the shape." +
+            "\nO Multi Objetos permite que você rastreie mais uma imagem ou cartão ao mesmo tempo, exibindo todos os objetos ratreados." +
+            "" +
             "\n\n" +
             keyFunctionality +
-            "\n• Detection and tracking of cuboid 3D shape" +
-            "\n• Occlusion handling" +
+            "\n• Detecção e rastreamento de varias formas 3D" +
             "\n\n" +
             targets +
-            "\n• Included Target" +
+            "\n• Imagens e cartões" +
             "\n\n" +
             instructions +
-            "\n• Point camera at target to view" +
-            "\n• Single tap to focus" +
+            "\n• Aponte a camera do seu smartphone para algumas imagens ou cartãos" +
+            "\n• Toque na tela para focar " +
             "\n\n" +
             footer + "\n");
 
@@ -282,20 +281,17 @@ public class AboutScreenInfo
         descriptions.Add(
             "VirtualButtons",
             description +
-            "\nThe Virtual Buttons sample shows how the developer can define rectangular " +
-            "regions on image targets that trigger an event when touched or occluded in " +
-            "the camera view. The sample renders a 3D object that changes color when " +
-            "one of the virtual buttons is triggered." +
+            "\nA Interação Virtual permite que você possa interagir com o objeto vertial" +
             "\n\n" +
             keyFunctionality +
-            "\n• Button occlusion event handling" +
+            "\n• Butões virtuais e interação" +
             "\n\n" +
             targets +
-            "\n• Included Targets" +
+            "\n• Imagens e cartões" +
             "\n\n" +
             instructions +
-            "\n• Point camera at target to view" +
-            "\n• Single tap to focus" +
+            "\n• Aponte a camera do seu smartphone para algumas imagens ou cartãos" +
+            "\n• Toque na tela para focar " +
             "\n\n" +
             footer + "\n");
 
