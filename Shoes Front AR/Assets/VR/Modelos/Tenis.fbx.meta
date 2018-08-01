@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 73f4ebd184dd98f429073bec9523a0f0
+timeCreated: 1507467460
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: conv_tongue1
+    100002: converse1
+    100004: laces1
+    100006: rivet17
+    100008: rivet18
+    100010: rivet19
+    100012: rivet20
+    100014: rivet21
+    100016: rivet22
+    100018: rivet23
+    100020: rivet24
+    100022: rivet25
+    100024: rivet26
+    100026: rivet27
+    100028: rivet28
+    100030: rivet29
+    100032: rivet30
+    100034: rivet31
+    100036: rivet32
+    100038: //RootNode
+    400000: conv_tongue1
+    400002: converse1
+    400004: laces1
+    400006: rivet17
+    400008: rivet18
+    400010: rivet19
+    400012: rivet20
+    400014: rivet21
+    400016: rivet22
+    400018: rivet23
+    400020: rivet24
+    400022: rivet25
+    400024: rivet26
+    400026: rivet27
+    400028: rivet28
+    400030: rivet29
+    400032: rivet30
+    400034: rivet31
+    400036: rivet32
+    400038: //RootNode
+    2300000: conv_tongue1
+    2300002: converse1
+    2300004: laces1
+    2300006: rivet17
+    2300008: rivet18
+    2300010: rivet19
+    2300012: rivet20
+    2300014: rivet21
+    2300016: rivet22
+    2300018: rivet23
+    2300020: rivet24
+    2300022: rivet25
+    2300024: rivet26
+    2300026: rivet27
+    2300028: rivet28
+    2300030: rivet29
+    2300032: rivet30
+    2300034: rivet31
+    2300036: rivet32
+    3300000: conv_tongue1
+    3300002: converse1
+    3300004: laces1
+    3300006: rivet17
+    3300008: rivet18
+    3300010: rivet19
+    3300012: rivet20
+    3300014: rivet21
+    3300016: rivet22
+    3300018: rivet23
+    3300020: rivet24
+    3300022: rivet25
+    3300024: rivet26
+    3300026: rivet27
+    3300028: rivet28
+    3300030: rivet29
+    3300032: rivet30
+    3300034: rivet31
+    3300036: rivet32
+    4300000: laces1
+    4300002: conv_tongue1
+    4300004: converse1
+    4300006: rivet32
+    4300008: rivet31
+    4300010: rivet30
+    4300012: rivet29
+    4300014: rivet28
+    4300016: rivet27
+    4300018: rivet26
+    4300020: rivet25
+    4300022: rivet24
+    4300024: rivet23
+    4300026: rivet22
+    4300028: rivet21
+    4300030: rivet20
+    4300032: rivet19
+    4300034: rivet18
+    4300036: rivet17
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
